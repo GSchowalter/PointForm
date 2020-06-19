@@ -4,7 +4,7 @@
 COMMUNITYSERVICE_PAGE = 'CommunityService.html';
 FUNDRAISING_PAGE = 'Fundraising.html';
 
-const form = document.getElementById('lpform')
+const form = document.getElementById('lpform');
 form.addEventListener('submit', event => {
     // submit event detected
     event.preventDefault();
