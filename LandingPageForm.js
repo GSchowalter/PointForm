@@ -10,11 +10,11 @@ form.addEventListener('submit', event => {
     event.preventDefault();
     const fname = document.getElementById('fname');
     console.log(`First name: ${fname.value}`)
-    window.sessionStorage.setItem('fname', fname.value);
+    window.sessionStorage.setItem('First name', fname.value);
 
     const lname = document.getElementById('lname');
     console.log(`Last name: ${lname.value}`);
-    window.sessionStorage.setItem('lname', lname.value);
+    window.sessionStorage.setItem('Last name', lname.value);
 
 
     var ele = document.getElementsByName('Event type');
